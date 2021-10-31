@@ -1,5 +1,5 @@
 Module {
-	name: 'verbose'
+	name: 'verbose12'
 	author: 'tleenaa'
 	version: '0.0.4'
 	repo_url: 'https://github.com/hantudiem/verbose'
