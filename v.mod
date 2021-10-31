@@ -1,8 +1,8 @@
 Module {
-	name: 'verbose1234'
+	name: 'verbose'
 	author: 'tleenaa'
 	version: '0.0.4'
-	repo_url: 'https://github.com/hantudiem/verbose1234'
+	repo_url: 'https://github.com/hantudiem/verbose'
 	vcs: 'git'
 	tags: ['words', 'random']
 	description: 'A generator for random parts of speech'
